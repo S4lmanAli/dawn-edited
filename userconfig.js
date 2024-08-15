@@ -1,3 +1,4 @@
+
 const CONFIG = new Config({
   crypto: {
     coin: 'ETH',
@@ -6,11 +7,11 @@ const CONFIG = new Config({
   },
   overrideStorage: true, // override localStorage with fixed userconfig values
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Lahore, Pakistan',
     scale: 'C'
   },
   clock: {
-    format: 'h:i p',
+    format: 'a d b Y, H:M p',
     iconColor: '#ff7b95'
   },
   search: {
@@ -30,49 +31,70 @@ const CONFIG = new Config({
   openLastVisitedTab: false,
   tabs: [
     {
-      name: 'boards',
+      name: 'MAIN',
       background_url: 'src/img/banners/bg-1.gif',
       categories: [{
-        name: 'fun',
+        name: 'Usual',
         links: [
           {
-            url: 'https://4chan.org/wsg/',
-            name: '/wsg/'
+            url: 'https://horizon.ucp.edu.pk/web/login',
+            name: 'UCP Portal',
+            icon: 'book',
           },
           {
-            name: '/out/',
-            url: 'https://4chan.org/out',
+            name: 'Deviantart',
+            url: 'https://www.deviantart.com/',
             icon: 'leaf',
             icon_color: '#64876d'
           },
           {
-            name: '/lit/',
-            url: 'https://4chan.org/lit/',
-            icon: 'book'
-          },
-          {
-            name: '/v/',
-            url: 'https://4chan.org/v/',
-            icon: 'device-gamepad',
+            name: 'Insta',
+            url: 'https://www.instagram.com/',
+            icon: 'brand-instagram',
             icon_color: '#8b647b'
           },
           {
-            name: '/p/',
-            url: 'https://4chan.org/p/',
-            icon: 'camera'
+            name: 'Facebook',
+            url: 'https://facebook.com/',
+            icon: 'brand-facebook',
+            icon_color: '#5c6ea3'
+          },
+          {
+            name: 'Youtube',
+            url: 'https://youtu.be/',
+            icon: 'brand-youtube',
+            icon_color: '#996767'
           }
         ]
       },
       {
-        name: 'Comfy',
+        name: 'Browsing',
         links: [
           {
-            name: '/lounge/',
-            url: 'https://sushigirl.us/lounge/catalog.html'
+            name: '/pakpassion/',
+            url: 'https://ppforum.pakpassion.net/forums/cricket.9/'
           },
           {
-            name: '/comfy/',
-            url: 'https://anon.cafe/comfy/catalog.html'
+            name: '/planetcricket/',
+            url: 'https://www.planetcricket.org/forums/'
+          },
+          {
+            name: '/sofifa/',
+            url: 'https://sofifa.com/?offset=20'
+          },
+          {
+            name: '/getty/',
+            url: 'https://www.gettyimages.com/editorial-images'
+          }
+          ,
+          {
+            name: '/beatsnoop/',
+            url: 'https://gettyimages-downloader.beatsnoop.com/'
+          }
+          ,
+          {
+            name: '/google images/',
+            url: 'https://www.google.com/imghp?hl=en&authuser=0&ogbl'
           }
         ]
       },
@@ -80,111 +102,177 @@ const CONFIG = new Config({
         name: 'Technology',
         links: [
           {
-            name: '/g/',
-            url: 'https://4chan.org/g/',
+            name: 'Github',
+            url: 'https://github.com/',
+            icon: 'brand-github'
           },
           {
-            name: '/Δ/',
-            url: 'https://archive.arisuchan.jp/%CE%94/catalog.html'
+            name: 'Twitter',
+            url: 'https://www.twitter.com/',
+            icon: 'brand-x'
           },
           {
-            name: '/λ/',
-            url: 'https://www.lainchan.org/%CE%BB/catalog.html'
+            name: 'Onedrive',
+            url: 'https://onlinepgc-my.sharepoint.com/my',
+            icon: 'brand-onedrive',
+            icon_color :'#004eaa'
           },
           {
-            name: '/sec/',
-            url: 'https://www.lainchan.org/sec/catalog.html'
+            name: 'GPT',
+            url: 'https://chatgpt.com/',
+            icon: 'brand-hipchat'
           },
           {
-            name: '/prog/',
-            url: 'https://boards.420chan.org/prog/',
-            icon: 'code'
+            name: 'Gemini',
+            url: 'https://gemini.google.com/app',
+            icon: 'minimize',
+            icon_color: '#6680d5'
           }
         ]
       }
       ]
     },
     {
-      name: 'music',
+      name: 'C++ (1)',
       background_url: 'src/img/banners/bg-2.gif',
       categories: [
         {
-          name: 'music services',
+          name: 'Playlists',
           links: [
+            ,
             {
-              url: 'https://soundcloud.com/',
-              icon: 'brand-soundcloud',
-              icon_color: '#c57750'
+              name: 'Code with Harry',
+              url: 'https://www.youtube.com/playlist?list=PLISTUNloqsz0z9JJJke7g7PxRLvy6How9',
             },
             {
-              url: 'https://youtu.be/',
-              icon: 'brand-youtube',
-              icon_color: '#996767'
+              name: 'Apna College',
+              url: 'https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ',
             },
             {
-              url: 'https://r-a-d.io/',
-              icon: 'radio'
+              name: 'Learn Coding',
+              url: 'https://www.youtube.com/playlist?list=PLqleLpAMfxGDq9Ehl8FUstcRrCRQPQO7n',
             },
+            {
+              name: 'Simple Snippets',
+              url: 'https://www.youtube.com/playlist?list=PLIY8eNdw5tW_o8gsLqNBu8gmScCAqKm2Q',
+            },
+            {
+              name: 'Sir Mohsin - Computing Education Hub',
+              url: 'https://www.youtube.com/@ComputingEducationHub',
+            },
+            {
+              name: 'Malik Shahzaib',
+              url: 'https://www.youtube.com/playlist?list=PLAZj-jE2acZIxax2FlhHy2at9jlBbZBWH',
+            }, 
+            {
+              name: 'Blitzerine',
+              url: 'https://www.youtube.com/@blitzerinecodes/playlists',
+            },
+            {
+              name: 'Rubina Yousaf',
+              url: 'https://www.youtube.com/playlist?list=PL3x9HpmGuy5wPtKeVdTOf-_S2C4TYoSBV',
+            }
           ]
         },
         {
-          name: 'music boards',
+          name: 'Compilers',
           links: [
+            ,
             {
-              name: '/music/',
-              url: 'https://lainchan.org/music/',
-              icon: 'disc'
+              name: 'Programiz',
+              url: 'https://www.programiz.com/cpp-programming/online-compiler/',
+              icon : 'code',
+              icon_color: '#800df2'
             },
             {
-              name: '/mu/',
-              url: 'https://boards.4channel.org/mu/',
+              name: 'One Compiler',
+              url: 'https://onecompiler.com/cpp',
+              icon : 'code',
+              icon_color: '##4d0ff0'
+            },
+            {
+              name: 'Online GDB',
+              url: 'https://www.onlinegdb.com/online_c++_compiler',
+              icon : 'code',
+              icon_color: '#f6a409'  
+            },
+            {
+              name: 'Scaler',
+              url: 'https://www.scaler.com/topics/cpp/online-cpp-compiler/',
+              icon : 'code',
+              icon_color: '#570c98' 
+            },
+            {
+              name: 'W3 Schools',
+              url: 'https://www.w3schools.com/cpp/trycpp.asp?filename=demo_compiler',
+              icon : 'code',
+              icon_color: '#2f2ad5'
             }
           ]
         }
       ]
     },
     {
-      name: 'tech',
+      name: 'C++ (2)',
       background_url: 'src/img/banners/bg-3.gif',
       categories: [
         {
-          name: 'subreddits',
+          name: 'Resources',
           links: [
             {
-              name: 'r/startpages/',
-              url: 'https://www.reddit.com/r/startpages/'
+              name: 'GFG',
+              url: 'https://www.geeksforgeeks.org/c-plus-plus/',
+              icon: 'code',
+              icon_color:'#3dc2a3'
             },
             {
-              name: 'r/unixporn',
-              url: 'https://www.reddit.com/r/unixporn/'
+              name: 'cppreference.com',
+              url: 'https://en.cppreference.com/w/cpp',
+              icon : 'brand-cpp',
+              icon_color: '#800df2'
             },
             {
-              name: 'r/mechkbds/',
-              url: 'https://www.reddit.com/r/MechanicalKeyboards/',
-              icon: 'keyboard',
-              icon_color: '#a57685'
-            },
+              name: 'cplusplus - library references',
+              url: 'https://cplusplus.com/reference/',
+              icon : 'brand-cpp',
+              icon_color: '#2f2ad5'
+            }
+            ,
             {
-              name: 'r/programming',
-              url: 'https://www.reddit.com/r/programming/'
+              name: 'cplusplus - tutorials',
+              url: 'https://cplusplus.com/doc/tutorial/',
+              icon : 'brand-cpp',
+              icon_color: '#2f2ad5'
             }
           ]
         },
         {
-          name: 'blogs',
+          name: 'Sites',
           links: [
             {
-              name: 'fasterthanli',
-              url: 'https://fasterthanli.me/articles',
-              icon: 'anchor'
+              name: 'w3schools',
+              url: 'https://www.w3schools.com/cpp/',
+              icon : 'school',
+              icon_color: '#9f51ae'
             },
             {
-              name: 'dev.to',
-              url: 'https://dev.to'
+              name: 'programiz',
+              url: 'https://www.programiz.com/cpp-programming',
+              icon: 'code-circle-2',
+              icon_color: '#800df2'
             },
             {
-              name: 'mataroa.blog',
-              url: 'https://collection.mataroa.blog',
+              name: 'Microsoft - VS - C++',
+              url: 'https://learn.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-170',
+              icon : 'brand-visual-studio',
+              icon_color: '#9f51ae'
+            }
+            ,
+            {
+              name: 'Javatpoint',
+              url: 'https://www.javatpoint.com/cpp-tutorial',
+              icon: 'regex-off',
+              icon_color: '#d32c30'
             }
           ]
         },
@@ -192,15 +280,16 @@ const CONFIG = new Config({
           name: 'misc',
           links: [
             {
-              name: 'post office',
-              url: 'http://afternoon.dynu.com/letterbox.html',
-              icon: 'mailbox'
-            },
-            {
-              name: 'rust docs',
-              url: 'https://doc.rust-lang.org/book/',
+              name: 'code with harry',
+              url: 'https://www.codewithharry.com/tutorial/cplusplus/',
               icon: 'notebook',
               icon_color: '#977a3a'
+            },
+            {
+              name: 'Weber University C++ Notes',
+              url: 'https://icarus.cs.weber.edu/~dab/cs1410/textbook/chapters.html',
+              icon: 'pencil-discount',
+              icon_color: '#a627d8'
             }
           ]
         }
