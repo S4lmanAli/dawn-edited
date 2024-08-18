@@ -157,6 +157,10 @@ const CONFIG = new Config({
               url: 'https://www.youtube.com/playlist?list=PLIY8eNdw5tW_o8gsLqNBu8gmScCAqKm2Q',
             },
             {
+              name: 'Professor Hank Stalica',
+              url: 'https://www.youtube.com/@ProfessorHankStalica/playlists',
+            },
+            {
               name: 'Sir Mohsin - Computing Education Hub',
               url: 'https://www.youtube.com/@ComputingEducationHub',
             },
