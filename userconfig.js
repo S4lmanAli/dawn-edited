@@ -218,6 +218,26 @@ const CONFIG = new Config({
             }
           ]
         }
+        ,
+        {
+          name: 'Problem Solving Practice',
+          links: [
+            ,
+            {
+              name: 'Hackerrank',
+              url: 'https://www.hackerrank.com/',
+              icon : 'code',
+              icon_color: '#800df2'
+            },
+           
+            {
+              name: 'Leet Code',
+              url: 'https://leetcode.com/',
+              icon : 'code',
+              icon_color: '#f6a409'  
+            }
+          ]
+        }
       ]
     },
     {
