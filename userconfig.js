@@ -270,18 +270,15 @@ const CONFIG = new Config({
           ]
         }
       ]
-    }] 
+    }
   ,
     {
       name: 'C++ (3)',
       background_url: 'src/img/banners/bg-2.gif',
       categories: [
-        {
-         
-        {
+          {
           name: 'Compilers',
           links: [
-            ,
             {
               name: 'Programiz',
               url: 'https://www.programiz.com/cpp-programming/online-compiler/',
@@ -314,10 +311,8 @@ const CONFIG = new Config({
             }
           ]
         ,
-        {
           name: 'Problem Solving Practice',
           links: [
-            ,
             {
               name: 'Hackerrank',
               url: 'https://www.hackerrank.com/',
@@ -334,5 +329,5 @@ const CONFIG = new Config({
           ]
         }
       ]
-    }
-});
+    }]
+ } );
