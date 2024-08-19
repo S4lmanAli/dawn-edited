@@ -313,7 +313,6 @@ const CONFIG = new Config({
               icon_color: '#2f2ad5'
             }
           ]
-        }
         ,
         {
           name: 'Problem Solving Practice',
@@ -335,5 +334,5 @@ const CONFIG = new Config({
           ]
         }
       ]
-    },
+    }
 });
