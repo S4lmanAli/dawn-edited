@@ -173,6 +173,10 @@ const CONFIG = new Config({
               url: 'https://www.youtube.com/playlist?list=PLAZj-jE2acZIxax2FlhHy2at9jlBbZBWH',
             }, 
             {
+              name: 'Safdar Dogar',
+              url: 'https://www.youtube.com/playlist?list=PLduM7bkxBdOekXfkEqIBAivzG99V2LrAS',
+            },
+            {
               name: 'Blitzerine',
               url: 'https://www.youtube.com/@blitzerinecodes/playlists',
             },
