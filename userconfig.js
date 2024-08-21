@@ -149,6 +149,15 @@ const CONFIG = new Config({
               url: 'https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ',
             },
             {
+              name: 'C++ by Saurabh Shukla',
+              url: 'https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF',
+            },
+            {
+              name: 'C++ - Geeky Shows',
+              url: 'https://www.youtube.com/playlist?list=PLbGui_ZYuhijXuOfBSdQgK296Y7wUDWLn',
+            },
+            
+            {
               name: 'Learn Coding',
               url: 'https://www.youtube.com/playlist?list=PLqleLpAMfxGDq9Ehl8FUstcRrCRQPQO7n',
             },
@@ -161,7 +170,7 @@ const CONFIG = new Config({
               url: 'https://www.youtube.com/@ProfessorHankStalica/playlists',
             },
             {
-              name: 'CodeVault (for C but may work for C++)',
+              name: 'CodeVault (for C)',
               url: 'https://www.youtube.com/@CodeVault/playlists',
             },
             {
@@ -185,11 +194,100 @@ const CONFIG = new Config({
               url: 'https://www.youtube.com/playlist?list=PL3x9HpmGuy5wPtKeVdTOf-_S2C4TYoSBV',
             }
           ]
+        },
+        {
+          name: 'Paid Courses - Udemy',
+          links: [
+            {
+              name: 'Abdul Bari - All Courses',
+              url: 'https://mega.nz/folder/QkwEGAII#0CDNw-mvSDJYcB603RYhBg',
+              icon: 'notebook',
+              icon_color: '#977a3a'
+            },
+            {
+              name: '[Code with Mosh] [All Courses]',
+              url: 'https://mega.nz/folder/IbMwybSD#4SaTERFqzI9IO-i4qcIAWA',
+              icon: 'pencil-discount',
+              icon_color: '#a627d8'
+            }
+          ]
+        }
+      ]
+      
+    },
+    {
+      name: 'C++ (2)',
+      background_url: 'src/img/banners/bg-2.gif',
+      categories: [
+          {
+          name: 'Compilers',
+          links: [
+            {
+              name: 'Programiz',
+              url: 'https://www.programiz.com/cpp-programming/online-compiler/',
+              icon : 'code',
+              icon_color: '#800df2'
+            },
+            {
+              name: 'One Compiler',
+              url: 'https://onecompiler.com/cpp',
+              icon : 'code',
+              icon_color: '##4d0ff0'
+            },
+            {
+              name: 'Online GDB',
+              url: 'https://www.onlinegdb.com/online_c++_compiler',
+              icon : 'code',
+              icon_color: '#f6a409'  
+            },
+            {
+              name: 'Scaler',
+              url: 'https://www.scaler.com/topics/cpp/online-cpp-compiler/',
+              icon : 'code',
+              icon_color: '#570c98' 
+            },
+            {
+              name: 'W3 Schools',
+              url: 'https://www.w3schools.com/cpp/trycpp.asp?filename=demo_compiler',
+              icon : 'code',
+              icon_color: '#2f2ad5'
+            }
+            
+          ]
+        },
+        {
+          name: 'Problem Solving Practice',
+          links: [
+            {
+              name: 'Hackerrank',
+              url: 'https://www.hackerrank.com/',
+              icon : 'code',
+              icon_color: '#800df2'
+            },
+           
+            {
+              name: 'Leet Code',
+              url: 'https://leetcode.com/',
+              icon : 'code',
+              icon_color: '#f6a409'  
+            }
+          ]
+        },
+        {
+          name: 'Useful Repositories',
+          links: [
+            {
+              name: 'Iqra Abdi - C++ (notes + programs) - Mosh\'s Student',
+              url: 'https://github.com/IQRA-ABDI/Cpp-Programming/tree/main',
+              icon: 'notebook',
+              icon_color: '#977a3a'
+            }
+          ]
         }
       ]
     },
     {
-      name: 'C++ (2)',
+      name: 'C++ (3)',
       background_url: 'src/img/banners/bg-3.gif',
       categories: [
         {
@@ -271,64 +369,5 @@ const CONFIG = new Config({
         }
       ]
     }
-  ,
-    {
-      name: 'C++ (3)',
-      background_url: 'src/img/banners/bg-2.gif',
-      categories: [
-          {
-          name: 'Compilers',
-          links: [
-            {
-              name: 'Programiz',
-              url: 'https://www.programiz.com/cpp-programming/online-compiler/',
-              icon : 'code',
-              icon_color: '#800df2'
-            },
-            {
-              name: 'One Compiler',
-              url: 'https://onecompiler.com/cpp',
-              icon : 'code',
-              icon_color: '##4d0ff0'
-            },
-            {
-              name: 'Online GDB',
-              url: 'https://www.onlinegdb.com/online_c++_compiler',
-              icon : 'code',
-              icon_color: '#f6a409'  
-            },
-            {
-              name: 'Scaler',
-              url: 'https://www.scaler.com/topics/cpp/online-cpp-compiler/',
-              icon : 'code',
-              icon_color: '#570c98' 
-            },
-            {
-              name: 'W3 Schools',
-              url: 'https://www.w3schools.com/cpp/trycpp.asp?filename=demo_compiler',
-              icon : 'code',
-              icon_color: '#2f2ad5'
-            }
-          ]
-        },
-        {
-          name: 'Problem Solving Practice',
-          links: [
-            {
-              name: 'Hackerrank',
-              url: 'https://www.hackerrank.com/',
-              icon : 'code',
-              icon_color: '#800df2'
-            },
-           
-            {
-              name: 'Leet Code',
-              url: 'https://leetcode.com/',
-              icon : 'code',
-              icon_color: '#f6a409'  
-            }
-          ]
-        }
-      ]
-    }]
+  ]
  } );
