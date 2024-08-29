@@ -64,6 +64,12 @@ const CONFIG = new Config({
             url: 'https://youtu.be/',
             icon: 'brand-youtube',
             icon_color: '#996767'
+          },
+          {
+            name: 'Gmail',
+            url: 'https://mail.google.com/mail/',
+            icon: 'mail',
+            icon_color: '#d32c30'
           }
         ]
       },
