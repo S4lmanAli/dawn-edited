@@ -179,6 +179,10 @@ const CONFIG = new Config({
               name: 'CodeVault (for C)',
               url: 'https://www.youtube.com/@CodeVault/playlists',
             },
+              {
+              name: 'C++ Animated - CodeArchery',
+              url: 'https://www.youtube.com/playlist?list=PLrKBFf87Cy9BVBAZ1Y-6Olzz0KTU4Qw6L',
+            },
             {
               name: 'Sir Mohsin - Computing Education Hub',
               url: 'https://www.youtube.com/@ComputingEducationHub',
