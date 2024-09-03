@@ -155,7 +155,7 @@ const CONFIG = new Config({
               url: 'https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ',
             },
             {
-              name: 'C++ by Saurabh Shukla',
+              name: 'C++ - Saurabh Shukla',
               url: 'https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF',
             },
             {
@@ -179,12 +179,16 @@ const CONFIG = new Config({
               name: 'CodeVault (for C)',
               url: 'https://www.youtube.com/@CodeVault/playlists',
             },
+            {
+              name: 'Knowledge Center',
+              url: 'https://www.youtube.com/@KnowledgeCenter/playlists',
+            },
               {
               name: 'C++ Animated - CodeArchery',
               url: 'https://www.youtube.com/playlist?list=PLrKBFf87Cy9BVBAZ1Y-6Olzz0KTU4Qw6L',
             },
             {
-              name: 'Sir Mohsin - Computing Education Hub',
+              name: 'Sir Mohsin UCP - Computing Education Hub',
               url: 'https://www.youtube.com/@ComputingEducationHub',
             },
             {
