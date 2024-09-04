@@ -188,6 +188,10 @@ const CONFIG = new Config({
               url: 'https://www.youtube.com/playlist?list=PLrKBFf87Cy9BVBAZ1Y-6Olzz0KTU4Qw6L',
             },
             {
+              name: 'C++ - M Umar',
+              url: 'https://www.youtube.com/playlist?list=PLbIhkHxfUIIu1lkGeMVVRe7DqWPACsYDg',
+            },
+            {
               name: 'Sir Mohsin UCP - Computing Education Hub',
               url: 'https://www.youtube.com/@ComputingEducationHub',
             },
