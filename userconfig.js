@@ -204,6 +204,11 @@ const CONFIG = new Config({
               url: 'https://www.youtube.com/playlist?list=PLduM7bkxBdOekXfkEqIBAivzG99V2LrAS',
             },
             {
+              name: 'Coding Cleverly',
+              url: 'https://www.youtube.com/playlist?list=PL6oj8ZA5xT3AHLqp9Xoq64xwV3IRs_TIP',
+            },
+
+            {
               name: 'Blitzerine',
               url: 'https://www.youtube.com/@blitzerinecodes/playlists',
             },
