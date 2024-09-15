@@ -65,6 +65,11 @@ const CONFIG = new Config({
             icon: 'brand-youtube',
             icon_color: '#996767'
           },
+           {
+            name: 'X',
+            url: 'https://www.twitter.com/',
+            icon: 'brand-x'
+          },
           {
             name: 'Gmail',
             url: 'https://mail.google.com/mail/',
@@ -112,11 +117,7 @@ const CONFIG = new Config({
             url: 'https://github.com/',
             icon: 'brand-github'
           },
-          {
-            name: 'Twitter',
-            url: 'https://www.twitter.com/',
-            icon: 'brand-x'
-          },
+         
           {
             name: 'Onedrive',
             url: 'https://onlinepgc-my.sharepoint.com/my',
@@ -133,6 +134,13 @@ const CONFIG = new Config({
             url: 'https://gemini.google.com/app',
             icon: 'minimize',
             icon_color: '#6680d5'
+          }
+          ,
+          {
+            name: 'Copilot',
+            url: 'https://copilot.microsoft.com/',
+            icon: 'brand-github-copilot',
+            icon_color:'#004eaa'
           }
         ]
       }
