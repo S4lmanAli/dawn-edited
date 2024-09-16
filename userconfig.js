@@ -90,6 +90,10 @@ const CONFIG = new Config({
             url: 'https://www.planetcricket.org/forums/'
           },
           {
+            name: '/cricinfo/',
+            url: 'https://www.espncricinfo.com/'
+          },
+          {
             name: '/sofifa/',
             url: 'https://sofifa.com/?offset=20'
           },
