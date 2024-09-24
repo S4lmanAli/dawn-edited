@@ -38,7 +38,7 @@ const CONFIG = new Config({
         links: [
           {
             url: 'https://horizon.ucp.edu.pk/web/login',
-            name: 'UCP Portal',
+            name: 'Horizon',
             icon: 'book',
           },
           {
@@ -82,11 +82,11 @@ const CONFIG = new Config({
         name: 'Browsing',
         links: [
           {
-            name: '/pakpassion/',
+            name: '/ppassion/',
             url: 'https://ppforum.pakpassion.net/forums/cricket.9/'
           },
           {
-            name: '/planetcricket/',
+            name: '/pcricket/',
             url: 'https://www.planetcricket.org/forums/'
           },
           {
