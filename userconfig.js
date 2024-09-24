@@ -240,7 +240,7 @@ const CONFIG = new Config({
               icon_color: '#977a3a'
             },
             {
-              name: '[Code with Mosh] [All Courses]',
+              name: 'Code with Mosh - All Courses',
               url: 'https://mega.nz/folder/IbMwybSD#4SaTERFqzI9IO-i4qcIAWA',
               icon: 'pencil-discount',
               icon_color: '#a627d8'
