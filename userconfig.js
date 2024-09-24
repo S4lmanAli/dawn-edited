@@ -42,7 +42,7 @@ const CONFIG = new Config({
             icon: 'book',
           },
           {
-            name: 'Deviantart',
+            name: 'DA',
             url: 'https://www.deviantart.com/',
             icon: 'leaf',
             icon_color: '#64876d'
@@ -54,13 +54,13 @@ const CONFIG = new Config({
             icon_color: '#8b647b'
           },
           {
-            name: 'Facebook',
+            name: 'Fb',
             url: 'https://facebook.com/',
             icon: 'brand-facebook',
             icon_color: '#5c6ea3'
           },
           {
-            name: 'Youtube',
+            name: 'YT',
             url: 'https://youtu.be/',
             icon: 'brand-youtube',
             icon_color: '#996767'
