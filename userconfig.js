@@ -82,15 +82,15 @@ const CONFIG = new Config({
         name: 'Browsing',
         links: [
           {
-            name: '/ppassion/',
+            name: '/pp/',
             url: 'https://ppforum.pakpassion.net/forums/cricket.9/'
           },
           {
-            name: '/pcricket/',
+            name: '/pcrkt/',
             url: 'https://www.planetcricket.org/forums/'
           },
           {
-            name: '/cricinfo/',
+            name: '/espn/',
             url: 'https://www.espncricinfo.com/'
           },
           {
@@ -103,7 +103,7 @@ const CONFIG = new Config({
           }
           ,
           {
-            name: '/beatsnoop/',
+            name: '/bsnoop/',
             url: 'https://gettyimages-downloader.beatsnoop.com/'
           }
           ,
