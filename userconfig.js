@@ -157,11 +157,7 @@ const CONFIG = new Config({
         {
           name: 'Playlists',
           links: [
-            ,
-            {
-              name: 'Code with Harry',
-              url: 'https://www.youtube.com/playlist?list=PLISTUNloqsz0z9JJJke7g7PxRLvy6How9',
-            },
+        
             {
               name: 'Apna College',
               url: 'https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ',
