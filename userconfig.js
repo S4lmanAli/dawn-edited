@@ -260,13 +260,13 @@ const CONFIG = new Config({
               icon_color: '#800df2'
             },
             {
-              name: 'One Compiler',
+              name: 'One',
               url: 'https://onecompiler.com/cpp',
               icon : 'code',
               icon_color: '##4d0ff0'
             },
             {
-              name: 'Online GDB',
+              name: 'GDB',
               url: 'https://www.onlinegdb.com/online_c++_compiler',
               icon : 'code',
               icon_color: '#f6a409'  
